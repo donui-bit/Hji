@@ -1,6 +1,6 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙼𝙰𝙳𝙴𝙳 𝙵𝙾𝚁 <a href=https://t.me/MOVIE_LOKHAM>ᴍᴏᴠɪᴇ 🍿 ʟᴏᴋʜᴀᴍ</a>"""
+    START_TXT = """ʜᴇʟᴏ {},
+ᴍʏ ɴᴀᴍᴇ ɪs<a href=https://t.me/{}>{}</a>,ᴛʜɪs ʙᴏᴛ ᴍᴀᴅᴇ ғᴏʀ<a href=https://t.me/MOVIE_LOKHAM>ᴍᴏᴠɪᴇ 🍿 ʟᴏᴋʜᴀᴍ</a>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
