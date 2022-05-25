@@ -75,7 +75,18 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**നിങ്ങൾ ചോദിച്ച സിനിമ കിട്ടണമെങ്കിൽ ആദ്യം തായെ കാണുന്ന ആദ്യത്തെ ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക
+എന്നിട്ട് ആ ചാനലിൽ ജോയിൻ ആവുക 
+
+എന്നിട്ട് രണ്ടാമത്തെ ബട്ടൺ അമർത്തി start കൊടുക്കുക‌‌
+
+ENG
+
+If you want to get the movie you asked for, first click on the first button you see
+
+Then join that channel
+
+Then press the second button and give start‌‌**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
